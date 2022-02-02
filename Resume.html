@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мое резюме</title>
+    <meta name="description" content="Резюме олега" />
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="me">
+        <img src="Oleg.jpeg" alt="photo" id="photo" class="avatar" />
+        <div class="info-text">
+          <h1>Олег Скорель</h1>
+          <h2>Я начинающий разработчик</h2>
+          <h2>Изучаю JavaScript</h2>
+          <h4>Мои Социальные страницы</h4>
+          <a href="vk.com" target="_blank">vk</a>
+          <a href="instagram.com" target="_blank">instagram</a>
+          <a href="telegram.com" target="_blank">telegram</a>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h3>Working places</h3>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>aqua</td>
+              <td>montag</td>
+              <td>2016-2022</td>
+            </tr>
+            <tr>
+              <td>flora</td>
+              <td>montag</td>
+              <td>2022-nowadays</td>
+            </tr>
+            <tr>
+              <td>flora</td>
+              <td colspan="2">no</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-green">
+        <h2>ролик</h2>
+        <ul class="link-list">
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=kgmknmqU3Mk"
+              target="_blank"
+              >Гурам Амарян х Демис Карибидис</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=3481s"
+              >обучающий курс</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="card bg-red">
+        <ol class="list">
+          <strong>Хобби</strong>
+          <li>hockey</li>
+          <li>football</li>
+          <li>bascetball</li>
+        </ol>
+      </div>
+
+      <div class="contact">
+        <h3>Связаться со мной</h3>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">name:</label>
+              <input type="text" placeholder="write name" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">email:</label>
+              <input type="email" placeholder="email" id="email" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="massenge">сообщение:</label>
+            <textarea
+              name="massenge"
+              id="massenge"
+              cols="20"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <input class="submit" type="submit" value="Связаться" />
+        </form>
+      </div>
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
